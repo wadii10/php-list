@@ -12,6 +12,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 $response = "Connected succefully";
-echo json_encode($response);
+// echo json_encode($response);
 //http://localhost/ecommerce/connect.php
 ?>
